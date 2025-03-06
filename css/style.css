@@ -1,0 +1,134 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f9f3e4;
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #b85c38;
+    font-size: 32px;
+    font-weight: 700;
+}
+strong {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    font-size: 18px;
+}
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.date-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #1d2b3a;
+    color: white;
+    padding: 15px;
+    border-radius: 10px; */
+    margin: 20px auto;
+    max-width: 400px;
+}
+.date-item {
+    text-align: center;
+    margin: 0 15px;
+}
+.date-item span {
+    display: block;
+}
+.day {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+}
+.month {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+.day-number {
+    font-size: 40px;
+    font-weight: 700;
+    color: #b85c38;
+}
+.year {
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+}
+.time {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+}
+
+.location-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.location-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #b85c38;
+    margin-bottom: 10px;
+}
+
+.location-title i {
+    color: #d35400;
+    margin-right: 5px;
+}
+
+.map-container {
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+
+.map-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.countdown {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #d35400;
+}
+.rsvp-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #b85c38;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+.rsvp-button:hover {
+    background: #9a482a;
+}
+.footer {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+}

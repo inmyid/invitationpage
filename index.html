@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Arisan Keluarga</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Undangan Arisan Keluarga</h1>
+        <p>Hai keluarga tercinta! Yuk, hadir di acara arisan kita yang penuh kebersamaan.</p>
+
+        <!-- Tanggal & Waktu -->
+        <div class="date-container">
+            <div class="date-item">
+                <span class="day">Sabtu</span>
+            </div>
+            <div class="date-item">
+                <span class="month">Mei</span>
+                <span class="day-number">30</span>
+                <span class="year">2026</span>
+            </div>
+            <div class="date-item">
+                <span class="time">08.00</span>
+                <span>-</span>
+                <span class="time">12.00 WIB</span>
+            </div>
+        </div>
+
+        <div class="location-container">
+            <h3 class="location-title"><i class="fas fa-map-marker-alt"></i> Lokasi</h3>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.811248815805!2d107.609810!3d-6.914744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTQnNTMuMiJTIDEwN8KwMzYnMjQuNCJF!5e0!3m2!1sen!2sid!4v1700000000000"
+                    width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>        
+        
+        <!-- Jika ingin menggunakan koordinat -->
+        <!-- <a href="https://www.google.com/maps?q=-6.914744,107.609810" target="_blank" class="location-link">
+            Rumah Tante Siti, Bandung
+        </a>         -->
+
+        <div class="countdown" id="countdown"></div>
+        <a href="#" class="rsvp-button">Konfirmasi Kehadiran</a>
+
+        <p class="footer">Kami tunggu kehadiran kalian! </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
