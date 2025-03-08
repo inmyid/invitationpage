@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.photobooth {
+    position: relative;
+    display: inline-block;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+select, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.photo-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.photo {
+    width: 150px;
+    height: auto;
+    border: 3px solid #007bff;
+    border-radius: 5px;
+}
+
+.download-btn {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    background: #28a745;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

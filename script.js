@@ -20,3 +20,18 @@ document.addEventListener("DOMContentLoaded", function() {
     updateCountdown();
     setInterval(updateCountdown, 1000);
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const elements = document.querySelectorAll(".card");
+    elements.forEach((el, index) => {
+        setTimeout(() => {
+            el.classList.add("show");
+        }, 300 * index);
+    });
+});
+
+function openMap(url) {
+    window.open(url, "_blank");
+}
+

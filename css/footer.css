@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.footer {
+    background-color: #b6a38b; /* Warna latar belakang footer */
+    padding: 10px;
+    text-align: center;
+    position: fixed; /* Menjadikan footer tetap di bawah */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-icon img {
+    width: 30px; /* Sesuaikan ukuran ikon */
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.footer-icon span {
+    font-size: 0.8em;
+}

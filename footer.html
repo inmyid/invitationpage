@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css">
+<link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+<title>Photo Book</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Photo Book</h1>
+    <div class="photobooth">
+        <video id="video" width="640" height="480" autoplay></video>
+        <canvas id="canvas" width="640" height="480" style="display: none;"></canvas>
+    </div>
+    <div class="controls">
+        <label for="frameSelect">Pilih Frame:</label>
+        <select id="frameSelect">
+            <option value="frames/frame1.png">Frame 1</option>
+            <option value="frames/frame2.png">Frame 2</option>
+            <option value="frames/frame3.png">Frame 3</option>
+        </select>
+        <button id="capture">Ambil Foto</button>
+    </div>
+    <h2>Galeri Foto</h2>
+    <div id="gallery"></div>
+</div>
+<script src="js/image.js" defer></script>
+</body>
+</html>
