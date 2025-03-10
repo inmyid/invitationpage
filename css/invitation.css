@@ -198,3 +198,13 @@ body {
     opacity: 0.7; /* Atur transparansi jika diperlukan */
 }
 
+
+.invitation-box-container h1,
+.invitation-box-container p,
+.invitation-box-container blockquote {
+    opacity: 0;
+    transform: translateY(40px) scale(0.95);
+    filter: blur(8px);
+    transition: opacity 1s ease-out, transform 1s ease-out, filter 0.8s ease-out;
+}
+
