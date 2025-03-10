@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@600&family=Poppins:wght@300;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f5e6;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    line-height: 1.2;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 5px 5px 12px rgba(0, 0, 0, 0.9);
+    margin-top: 5px;
+    /* color: #8b5e34; */
+}
+
+.guest,
+.button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.guest {
+    bottom: 20%;
+    font-size: 18px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+}
+
+.guest {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    text-align: center;
+    /* Ensures text is centered */
+    bottom: 15%;
+    /* Adjust this value to position it better */
+}
+
+.guest span {
+    font-weight: bold;
+}
+
+.button {
+    bottom: 10%;
+    background-color: #2d572c;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #21471d;
+}

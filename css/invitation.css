@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.invitation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Container untuk Pendahuluan */
+.invitation-intro-container,
+.invitation-box-container, .invitation-map-container {
+    width: 80%;
+    max-width: 360px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f5e6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Styling untuk Pendahuluan */
+
+.invitation-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.invitation-intro img {
+    width: 50px;
+    height: auto;
+    margin-top: 15px; /* Jarak atas agar tidak terlalu menempel */
+}
+
+.invitation-intro h1 {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #8b5e34;
+}
+
+.invitation-intro p {
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.invitation-intro blockquote {
+    font-style: italic;
+    font-size: 16px;
+    color: #555;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-left: 5px solid #2d572c;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Styling untuk Undangan Akad Nikah */
+.invitation-box h1 {
+    color: #8b5e34;
+}
+
+.date {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.location {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #8b5e34;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.countdown div {
+    background: #8b5e34;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60px;
+}
+
+/* date */
+.date-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #1d2b3a;
+    color: white;
+    padding: 15px;
+    border-radius: 10px; */
+    margin: 20px auto;
+    max-width: 400px;
+}
+.date-item {
+    text-align: center;
+    margin: 0 15px;
+}
+.date-item span {
+    display: block;
+}
+.day {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+}
+.month {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+.day-number {
+    font-size: 40px;
+    font-weight: 700;
+    color: #b85c38;
+}
+.year {
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+}
+.time {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+}
+
+/* Box Google Maps (Tetap Pakai Warna yang Sama) */
+.map-location {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #8b5e34; /* Samakan dengan elemen lain */
+}
+
+.map-address {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.map-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #8b5e34;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.map-button:hover {
+    background-color: #b85c38;
+}
+
+/* Footer */
+.footer-watermark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f8f8;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer-watermark p {
+    font-size: 14px;
+    color: #888;
+    margin-left: 10px;
+}
+
+.footer-icon {
+    width: 30px; /* Sesuaikan ukuran ikon */
+    height: auto;
+    opacity: 0.7; /* Atur transparansi jika diperlukan */
+}
+
