@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", () => {
     const introContainer = document.querySelector(".invitation-intro-container");
-    const animatedSections = document.querySelectorAll(".invitation-box-container, .invitation-map-container, .footer-watermark, .invitation-intro, .invitation-intro-container");
-    const animatedTexts = document.querySelectorAll(".invitation-intro-container h1, .invitation-box-container h2, .invitation-box-container p, .invitation-map-container h2, .invitation-map-container p, .footer-watermark, h1, blockquote");
+    const animatedSections = document.querySelectorAll(".invitation-box-container, .invitation-map-container, .invitation-intro, .invitation-intro-container");
+    const animatedTexts = document.querySelectorAll(".invitation-intro-container h1, .invitation-box-container h2, .invitation-box-container p, .invitation-map-container h2, .invitation-map-container p, h1, blockquote");
 
     // Efek Parallax untuk latar belakang
     window.addEventListener("scroll", () => {
